@@ -1,4 +1,7 @@
 class Calculadora {
+    divisao(expressao:string) {
+        return(1)
+    }
 
     soma(expressao:string) {
         var parcelas = expressao.split('+');

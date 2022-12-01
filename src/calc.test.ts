@@ -29,3 +29,14 @@ describe('funcionalidade soma', () => {
     })
 
 })
+
+describe ('funcionalidade divisao', ()=> {
+    test('dividir dois numeros', () =>{
+       //setup
+       const sut = new Calculadora();
+       //action
+       const resultado = sut.divisao('2/2');
+       //expectation
+       expect (resultado).toBe(1); 
+    })
+})
